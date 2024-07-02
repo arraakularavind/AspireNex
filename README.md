@@ -51,5 +51,7 @@
             #Provide the performance metrics of each model, such as accuracy, precision, recall, and F1-score based on input provided by user (Message) and classify them as either spam or ham
 
 NOTE: DETAILED WORKING PROCEDURE has been given in "procedure.txt" of respective folder with working model and a recorded demonstration has been provided for every models and functions to experience the same.
+
+* creditcard.csv dataset is not present in folder because of space contraint. Kindly refer the kaggle site provided by recruit team.
     
 
