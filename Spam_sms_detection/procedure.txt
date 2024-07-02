@@ -1,0 +1,37 @@
+
+Spam Detection using Machine Learning
+
+This project implements a spam detection system using various machine learning models. It preprocesses text messages, vectorizes them using TF-IDF, and then applies different classifiers like Naive Bayes, Logistic Regression, and SVM. Additionally, it balances the dataset using SMOTE to improve the performance of the models.
+
+Steps:
+
+1. Download required package using pip command using 
+   !pip install <package> #Reference
+
+2. Mount Google Drive (when using colab)
+   from google.colab import drive
+   drive.mount('/content/drive', force_remount=True)
+
+3. Data preprocessing
+
+   Convert to lowercase: Ensures uniformity.
+   Remove punctuation: Strips out any punctuation.
+   Remove numbers: Eliminates digits from the text.
+   Remove stop words: Removes common words that do not contribute much to root meaning.
+   Lemmatization: Reduces words to their root form
+
+4. Balancing the dataset between spam and ham using oversampling/undersampling technique
+
+5. Model Training
+     * In question mentioned classifier--> Naive Bayes, Logistic Regression, Support Vector Machine (SVM)
+     * The Training dataset(80:20) is balanced using SMOTE to improve model performance
+
+6. Prediction
+     * The Trained Model are ready to predict whether a given message by user is spam or not and display the classification report of the model
+
+7. GUI Creating using voila 
+	Interact with the widget
+		*Enter a message in the text input box.
+		*Select a model from the dropdown.
+		*Click the "Predict" button to see the prediction and the classification report.
+   
